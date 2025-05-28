@@ -1,4 +1,4 @@
-module mdtest
+module whatsapptool
 
 go 1.23.0
 
@@ -27,3 +27,5 @@ require (
 	golang.org/x/sys v0.33.0 // indirect
 	rsc.io/qr v0.2.0 // indirect
 )
+
+replace go.mau.fi/whatsmeow => ../../gitprj/whatsmeow

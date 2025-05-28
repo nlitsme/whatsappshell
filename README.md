@@ -1,10 +1,10 @@
-# mdtest
+# whatsapptool
 
 Based upon the mdtest tool previously part of [whatsmeow](https://github.com/tulir/whatsmeow).
 
 mdtest was deleted from the whatsmeow project in commit 9bd3fa0cc1c1a56c4e1ea324883b876c2c008c84
 
-mdtest is a tool which connects to whatsapp using whatsmeow, and allows you to send most protocol messages
+This is a tool which connects to whatsapp using whatsmeow, and allows you to send most protocol messages
 from an interactive shell.
 
 
@@ -27,9 +27,9 @@ other features:
 
 1. Clone the repository.
 2. Run `go build` inside this directory.
-3. Run `./mdtest` to start the program. Optionally, use `rlwrap ./mdtest` to get a nicer prompt.
+3. Run `./whatsapptool` to start the program. Optionally, use `rlwrap ./whatsapptool` to get a nicer prompt.
    Add `-debug` if you want to see the raw data being sent/received.
-4. On the first run, scan the QR code. On future runs, the program will remember you (unless `mdtest.db` is deleted). 
+4. On the first run, scan the QR code. On future runs, the program will remember you (unless `whatsapptool.db` is deleted). 
 
 New messages will be automatically logged. To send a message, use `send <jid> <message>`
 
@@ -37,6 +37,6 @@ New messages will be automatically logged. To send a message, use `send <jid> <m
 ## Authors
 
  * The above extensions were added by Willem Hengeveld <itsme@xs4all.nl>
- * The main body of the mdtest tool was written by the [whatsmeow](https://github.com/tulir/whatsmeow) team.
+ * The main body of whatsapptool/mdtest was written by the [whatsmeow](https://github.com/tulir/whatsmeow) team.
 
 
