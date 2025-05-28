@@ -1,4 +1,4 @@
-module whatsapptool
+module whatsappshell
 
 go 1.23.0
 

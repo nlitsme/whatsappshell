@@ -1,4 +1,4 @@
-# whatsapptool
+# whatsappshell
 
 Based upon the mdtest tool previously part of [whatsmeow](https://github.com/tulir/whatsmeow).
 
@@ -27,9 +27,9 @@ other features:
 
 1. Clone the repository.
 2. Run `go build` inside this directory.
-3. Run `./whatsapptool` to start the program. Optionally, use `rlwrap ./whatsapptool` to get a nicer prompt.
+3. Run `./whatsappshell` to start the program. Optionally, use `rlwrap ./whatsappshell` to get a nicer prompt.
    Add `-debug` if you want to see the raw data being sent/received.
-4. On the first run, scan the QR code. On future runs, the program will remember you (unless `whatsapptool.db` is deleted). 
+4. On the first run, scan the QR code. On future runs, the program will remember you (unless `whatsappshell.db` is deleted). 
 
 New messages will be automatically logged. To send a message, use `send <jid> <message>`
 
