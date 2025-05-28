@@ -1,8 +1,12 @@
 # mdtest
 
-Based upon the tool previously part of whatsmeow.
+Based upon the mdtest tool previously part of [whatsmeow](https://github.com/tulir/whatsmeow).
 
 mdtest was deleted from the whatsmeow project in commit 9bd3fa0cc1c1a56c4e1ea324883b876c2c008c84
+
+mdtest is a tool which connects to whatsapp using whatsmeow, and allows you to send most protocol messages
+from an interactive shell.
+
 
 ## extensions
 
@@ -16,8 +20,8 @@ more commands:
  * corrected some typo's
 
 other features:
- * video's are also saved
- * the filename for images and video's now contains the current time.
+ * all incoming images and videos are saved
+ * the filename for images and video's contain the current time.
 
 ## Building
 
@@ -28,3 +32,11 @@ other features:
 4. On the first run, scan the QR code. On future runs, the program will remember you (unless `mdtest.db` is deleted). 
 
 New messages will be automatically logged. To send a message, use `send <jid> <message>`
+
+
+## Authors
+
+ * The above extensions were added by Willem Hengeveld <itsme@xs4all.nl>
+ * The main body of the mdtest tool was written by the [whatsmeow](https://github.com/tulir/whatsmeow) team.
+
+
